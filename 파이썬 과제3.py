@@ -41,7 +41,8 @@ print(result)
 
 # 과제 17
 a = [10, 20, 30, 40, 30, 20, 10]
-a.remove(20)
+while 20 in a:
+    a.remove(20)
 print(a)
 
 # 과제 18
@@ -49,7 +50,7 @@ a = [i for i in range(1,6)]
 print(a)
 
 # 과제 19
-a = [i for i in range(1,21) if i % 2 == 1]
+a = [i for i in range(1,21,2)]
 print(a)
 
 # 과제 20
